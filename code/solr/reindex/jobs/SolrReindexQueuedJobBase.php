@@ -128,7 +128,7 @@ abstract class SolrReindexQueuedJobBase implements QueuedJob
 
     public function getJobType()
     {
-        return QueuedJob::QUEUED;
+        return QueuedJob::LARGE;
     }
 
     public function addMessage($message)
